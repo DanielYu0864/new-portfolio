@@ -1,0 +1,48 @@
+.main-contaner {
+  display: grid;
+  height: 100vh;
+  width: auto;
+  background-image: url(./20200229_164836.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.header {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  position: absolute;
+  margin-left: 10px;
+}
+.title h1 {
+  font-size: 100px;
+  color: #d5f8f2;
+  text-align: center;
+  padding-top: 40px;
+}
+.title p {
+  font-size: 18px;
+  text-align: center;
+  color: #646464;
+  position: relative;
+  top: -45px;
+}
+.title {
+  margin-top: 0;
+}
+
+.media {
+  position: relative;
+  top: 2.5vh;
+  text-align: center;
+}
+
+.media img {
+  opacity: 0.8;
+  padding-right: 15px;
+  padding-left: 15px;
+  filter: invert(1);
+}
+
+.media img:hover {
+  opacity: 1;
+}
