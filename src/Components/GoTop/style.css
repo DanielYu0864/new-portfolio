@@ -1,0 +1,29 @@
+.go-top {
+  position: fixed;
+  bottom: 2vh;
+  right: 1vw;
+}
+
+.go-top a {
+  color: #bae2e4;
+}
+
+.go-top a:hover {
+  color: #2e6264;
+}
+
+.go-top a::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #2e6264;
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+.go-top a:hover::before {
+  width: 35px;
+}

@@ -3,7 +3,7 @@ import Nav from '../Nav';
 import './style.css'
 function Header() {
   return (
-    <div className='main-contaner'>
+    <div className='main-contaner' id='main-contaner'>
       <Nav/>
       <div class="title">
         <h1>

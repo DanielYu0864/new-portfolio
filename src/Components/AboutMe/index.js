@@ -1,10 +1,11 @@
 import React from 'react'
-import img from './IMG_20190620_093845_094.jpg'
+import img from './IMG_20190620_093845_094.jpg';
+import './style.css';
 function AboutMe() {
   return (
-    <div class="about-me-container .col-10" id="about-me-container">
-        <div class="my-p">
-          <img class="mypicture" src={img}/>
+    <div className="about-me-container .col-10" id="about-me-container">
+        <div className="my-p">
+          <img className="mypicture" src={img}/>
         </div>
 
                 <p>

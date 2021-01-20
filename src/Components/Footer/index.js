@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './style.css'
 function Footer() {
   return (
-    <div>
-      footer
+    <div className='footer'>
+      DANIEL YU © 2021
     </div>
   )
 }

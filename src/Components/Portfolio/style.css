@@ -1,0 +1,25 @@
+.portfolio {
+  overflow: hidden;
+  height: 100vh;
+  width: auto;
+  background-color: #57abae;
+  /* flex-wrap: wrap; */
+}
+
+.portfolio h2 {
+  color: #d5f8f2;
+}
+
+.projects {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.portfolio img {
+  margin: 10px;
+  width: auto;
+  height: 170px;
+}
