@@ -3,7 +3,7 @@ import './style.css';
 
 function GoTop () {
   return (
-    <div class="go-top">
+    <div className="go-top">
       <a href="#main-contaner">TOP</a>
     </div>
   )

@@ -3,7 +3,7 @@ import './style.css';
 function Contact() {
   return (
     <div className='contact' id='contact'>
-    <div class="line"></div>
+    <div className="line"></div>
       <ul>
         Contact Me:
         <p>Phone: <a href="tel:+14256254073">425-625-4073</a></p>
@@ -12,7 +12,7 @@ function Contact() {
         <p>Github: <a href="https://github.com/DanielYu0864">DanielYu0864</a></p>
         <p>Resume: <a href="https://docs.google.com/document/d/1Ya9Fd6Vm6wtb08S1Np3QUaCqCZpPwpZ67If9TPSfGKA/edit?usp=sharing">Google docs</a></p>
       </ul>
-    <div class="line"></div>
+    <div className="line"></div>
 
     </div>
   )

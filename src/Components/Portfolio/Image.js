@@ -3,7 +3,7 @@ import React from 'react'
 function Image({url}) {
   return (
     <>
-      <img src={url}/>
+      <img src={url} alt=''/>
     </>
   )
 }
