@@ -10,6 +10,12 @@
   color: #d5f8f2;
 }
 
+.portfolio img {
+  margin: 10px;
+  width: 300px;
+  height: 170px;
+}
+
 .projects {
   height: 70vh;
   display: flex;
@@ -18,8 +24,35 @@
   align-content: center;
 }
 
-.portfolio img {
-  margin: 10px;
+.projects a {
   width: auto;
   height: 170px;
+}
+
+.project-card:hover .hover {
+  opacity: 0.8;
+}
+
+.projects h2 {
+  padding: 5px;
+  color: #646464;
+  font-size: 30px;
+  width: auto;
+}
+
+.project-card {
+  height: 170px;
+}
+.hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  top: -196.5px;
+  margin: 10px;
+  width: 300px;
+  height: 170px;
+  background-color: #f2f9f9;
+  opacity: 0;
 }
