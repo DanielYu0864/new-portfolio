@@ -10,7 +10,7 @@ function Contact() {
         <p>Email: <a href="mailto:adam741963@gmail.com">adam741963@gmail.com</a></p>
         <p>Linkedin: <a href="https://www.linkedin.com/in/daniel-yu-264360199/">Daniel Yu</a></p>
         <p>Github: <a href="https://github.com/DanielYu0864">DanielYu0864</a></p>
-        <p>Resume: <a href="https://docs.google.com/document/d/1Ya9Fd6Vm6wtb08S1Np3QUaCqCZpPwpZ67If9TPSfGKA/edit?usp=sharing">Google docs</a></p>
+        <p>Resume: <a href="https://docs.google.com/document/d/16Y8jTLcpXA2tg8TWbc2ODfmxt7hLBfrARfK02jQfFok/edit?usp=sharing">Google docs</a></p>
       </ul>
     <div className="line"></div>
 
