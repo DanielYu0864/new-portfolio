@@ -26,14 +26,14 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff751a;
+  color: #81c0c2;
 }
 
 nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #ff751a;
+  background-color: #81c0c2;
 
   position: absolute;
   top: 0;
