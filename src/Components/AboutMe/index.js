@@ -12,10 +12,10 @@ function AboutMe() {
                   I am Daniel Yu from Taiwan
                 </p>
                 <p>
-                  Finished the ABE program at Bellevue college in 2020
+                  Completed the Advanced Basic English program at Bellevue College
                 </p>
                 <p>
-                  Studying to be a full stack web developer in UW Coding BootCamp
+                  Graduated{/* or finished? */} the Full-Stack Web Development Certificate from the University of Washington
                 </p>
                 <p>
                   love in swimming but haven't swum once since came here
