@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Employee Management System",
+      "category": "Employee management system built with NodeJS",
+      "language": "JavaScript, ExpressJs, and NodeJS",
+      "image": "https://user-images.githubusercontent.com/66336525/105122353-e5a95a80-5a8a-11eb-8343-967e6920d521.png",
+      "repo": "https://github.com/DanielYu0864/DanielYu-HomeWork-12-Employee-Management-System",
+      "deploy" : ""
+    },
+    {
+      "id": 2,
+      "title": "Family App",
+      "category": "Family App built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+      "language": "MongoDB, ExpressJS, ReactJS, NodeJS, JavaScript, and SCSS",
+      "image": "https://user-images.githubusercontent.com/66336525/105122362-e9d57800-5a8a-11eb-9385-c4cb68e8bf28.png",
+      "repo": "https://github.com/DanielYu0864/Project-03",
+      "deploy" : "https://project03familyapp.herokuapp.com/"
+    },
+    {
+      "id": 3,
+      "title": "Sk8Tool",
+      "category": "A app to help user find skateparks built with MVC (Model–view–controller)",
+      "language": "MySQL, ExpressJS, HandlebarJS, NodeJS, JavaScript, CSS, and googleAPI",
+      "image": "https://user-images.githubusercontent.com/66336525/105122364-ec37d200-5a8a-11eb-8564-8c9daa13747c.jpg",
+      "repo": "https://github.com/DanielYu0864/Project-02-Sk8Tool",
+      "deploy" : "https://sk8fndr.herokuapp.com/"
+    },
+    {
+      "id": 4,
+      "title": "Weather App",
+      "category": "A sample weather dashboard with current weather and nextfive days weather forecast",
+      "language": "HTML, JavaScript, CSS, and OpenWeatherAPI",
+      "image": "https://user-images.githubusercontent.com/66336525/105122371-efcb5900-5a8a-11eb-9cbb-01313d9d3168.png",
+      "repo": "https://github.com/DanielYu0864/DanielYu-HomeWork-06-Weather-Dashboard",
+      "deploy" : "https://danielyu0864.github.io/DanielYu-HomeWork-06-Weather-Dashboard/"
+    }
+  ]
+}

@@ -3,11 +3,11 @@
   height: 100vh;
   width: auto;
   background-color: #57abae;
-  /* flex-wrap: wrap; */
 }
 
 .portfolio h2 {
   color: #d5f8f2;
+  white-space: normal;
 }
 
 .portfolio img {
@@ -22,15 +22,17 @@
   justify-content: center;
   align-items: center;
   align-content: center;
+  overflow: hidden;
+  transition: 0.3s cubic-bezier(0.67, -0.55, 0.265, 1.55);
 }
 
-.projects a {
+.projects.top {
+  height: auto;
+}
+
+.projects button {
   width: auto;
   height: 170px;
-}
-
-.project-card:hover .hover {
-  opacity: 0.8;
 }
 
 .projects h2 {
@@ -38,6 +40,10 @@
   color: #646464;
   font-size: 30px;
   width: auto;
+}
+
+.project-card:hover .hover {
+  opacity: 0.8;
 }
 
 .project-card {
@@ -55,4 +61,81 @@
   height: 170px;
   background-color: #f2f9f9;
   opacity: 0;
+}
+
+.hover.none {
+  opacity: 0.7;
+}
+
+.project-container {
+  display: inline-block;
+  position: relative;
+  width: 650px;
+  height: 430px;
+}
+
+.project-container img {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.project-container h2 {
+  text-transform: uppercase;
+}
+
+.project-container div {
+  color: #f5fafa;
+  padding: 10px;
+  text-align: start;
+}
+
+.project-container p {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+
+.a-tags {
+  position: absolute !important;
+  bottom: 10px;
+}
+
+.a-tags a {
+  padding: 10px;
+  color: #f5fafa;
+}
+
+.underline1,
+.underline2 {
+  border: 2px solid transparent;
+}
+.underline1::after,
+.underline2::after {
+  width: 0;
+  height: 2px;
+  display: block;
+  background-color: #f5fafa;
+  content: ' ';
+  position: absolute;
+  /* top: 34px;
+  left: 50%; */
+  -webkit-transition: left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1),
+    width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1),
+    width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.underline1:hover::after,
+.underline2:hover::after {
+  width: 5.5rem;
+  height: 2px;
+  display: block;
+  background-color: #f5fafa;
+  content: ' ';
+  position: absolute;
+}
+
+.underline2:hover::after {
+  width: 3.5rem;
+  left: 6.3rem;
 }
