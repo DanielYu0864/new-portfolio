@@ -127,7 +127,7 @@
 }
 .underline1:hover::after,
 .underline2:hover::after {
-  width: 5.5rem;
+  width: 45%;
   height: 2px;
   display: block;
   background-color: #f5fafa;
@@ -136,6 +136,6 @@
 }
 
 .underline2:hover::after {
-  width: 3.5rem;
-  left: 6.3rem;
+  width: 55%;
+  left: 45%;
 }

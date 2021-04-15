@@ -3,13 +3,36 @@
   color: #408486;
 }
 
-.contact ul {
+/* .contact ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  mix-blend-mode: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+.contact .info {
+  margin: 0;
+  padding: 0;
   text-align: left;
   /* width: 40vw; */
   mix-blend-mode: normal;
-  position: relative;
-  right: 30%;
-  left: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact ul {
+  margin: 0px;
+  padding: 0;
+}
+
+.contact li {
+  list-style: none;
+  text-align: left !important;
 }
 
 .contact a {
